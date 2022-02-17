@@ -8,8 +8,8 @@ const mongoConnect = process.env.MONGODB_STRING;
 
 (async () => {
   try {
-    await initializeServer(port);
     await connectDataBase(mongoConnect);
+    await initializeServer(port);
   } catch (error) {
     debug(error.message);
   }
