@@ -1,0 +1,33 @@
+{
+  "name": "w6ch4-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "start-dev": "nodemon . -q"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnaIazovskaia/202201-w6ch4-inna-iazovskaia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnaIazovskaia/202201-w6ch4-inna-iazovskaia/issues"
+  },
+  "homepage": "https://github.com/InnaIazovskaia/202201-w6ch4-inna-iazovskaia#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "dependencies": {
+    "debug": "^4.3.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
